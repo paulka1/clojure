@@ -27,9 +27,5 @@
         header-links
         [:h1 "MORPION"]
         [:div#playerLine[:h3.player "Player 1"] [:h3.player "Player 2"]]
-        (make-board)))
+        ))
 
-(defn make-board [] (vec (repeat 9 "#")))
-
-(defn empty-square? [square]
-      (= "#" square))
