@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+}
+
+#header-links {
+    text-align: center;
+    padding: 10px;
+}
+
+#playerLine{
+    text-align: center;
+}
+.player {
+    display: inline;
+    font-size: 25px;
+    padding: 30px;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
